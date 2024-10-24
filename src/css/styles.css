@@ -76,7 +76,6 @@ input::placeholder {
 }
 
 img {
-  max-width: auto;
   background-color: transparent;
   cursor: pointer;
 }
@@ -86,7 +85,7 @@ img {
 }
 
 .password-container img:active {
-  transform: scale(95%);
+  transform: scale(0.95);
 }
 
 button img {
@@ -116,7 +115,7 @@ button:focus {
 }
 
 button:active {
-  transform: scale(95%);
+  transform: scale(0.95);
 }
 
 /* ---------------------------- TABLET -------------------------------------*/
@@ -195,6 +194,6 @@ button:active {
   }
 
   button:active {
-    transform: scale(94%);
+    transform: scale(0.95);
   }
 }
