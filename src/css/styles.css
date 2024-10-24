@@ -85,6 +85,10 @@ img {
   margin-left: -25px;
 }
 
+.password-container img:active {
+  transform: scale(95%);
+}
+
 button img {
   margin-right: 10px;
 }
@@ -188,5 +192,9 @@ button:active {
     align-self: flex-start;
     font-size: 25px;
     padding: 15px;
+  }
+
+  button:active {
+    transform: scale(94%);
   }
 }
